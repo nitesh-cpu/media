@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .box {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: lightblue;
+            font-size: 20px;
+        }
+
+        /* Media query for small screens (less than 600px) */
+        @media (max-width: 600px) {
+            .box {
+                background-color: lightcoral;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Design with @media</h1>
+    <div class="box">Resize the browser to see the color and font size change!</div>
+</body>
+</html>
